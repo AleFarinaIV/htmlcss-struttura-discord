@@ -1,0 +1,50 @@
+html {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        header {
+            background-color: #83d5ff;
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .content {
+                        padding: 5px 5px;
+                        margin: 10px 0;
+                        background-color: rgb(255 187 0);
+                        border: 1px solid black
+                    }
+
+                    .col-20 {
+                        width: 20%;
+                        display: inline-block;
+                        .ta-end{
+                            text-align: end;
+                        }
+                    }
+
+                    .col-60 {
+                        width: 60%;
+                        ul {
+                            list-style-type: none;
+                            text-align: center;
+                            li {
+                                display: inline-block
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
