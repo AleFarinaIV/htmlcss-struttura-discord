@@ -4,16 +4,12 @@ html {
         padding: 0;
         box-sizing: border-box;
     }
-
     body {
-
         header {
             background-color: #83d5ff;
-
             .container {
                 max-width: 1200px;
                 margin: 0 auto;
-
                 .row {
                     display: flex;
                     flex-wrap: wrap;
@@ -23,7 +19,6 @@ html {
                         background-color: rgb(255 187 0);
                         border: 1px solid black
                     }
-
                     .col-20 {
                         width: 20%;
                         display: inline-block;
@@ -31,7 +26,6 @@ html {
                             text-align: end;
                         }
                     }
-
                     .col-60 {
                         width: 60%;
                         ul {
@@ -45,6 +39,86 @@ html {
                 }
             }
         }
-
+        main {
+            .container-blue {
+                max-width: 100%;
+                background-color: blue;
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .col {
+                            width: 900px;
+                            height: 300px;
+                            background-color: violet;
+                            margin: 20px auto;  
+                        }
+                    }
+                }
+            }
+            .container-white {
+                width: 100%;
+                background-color: white;
+                .container-2 {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 20px auto;
+                        .col-60 {
+                            width: 60%;
+                            height: 340px;
+                            background-color: rgb(69, 112, 212);
+                        }
+                        .col-40 {
+                            width: 40%;
+                            height: 340px;
+                            background-color: rgb(225, 164, 164);
+                        }
+                    }
+                }
+            }
+            .container-grey {
+                max-width: 100%;
+                background-color: grey;
+                .container-3 {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding: 20px 0px;
+                        flex-direction: row-reverse;
+                        .col-60 {
+                            width: 60%;
+                            height: 340px;
+                            background-color: rgb(69, 112, 212);
+                        }
+                        .col-40 {
+                            width: 40%;
+                            height: 340px;
+                            background-color: rgb(225, 164, 164);
+                        }
+                    }
+                }
+                .container-5 {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding: 20px 0;
+                        .col {
+                            width: 100%;
+                            height: 640px;
+                            background-color: green;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
